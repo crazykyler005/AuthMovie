@@ -1,0 +1,11 @@
+﻿@model SecFromScratch.Movie
+@{
+    Layout=null;
+}
+<h1>Create a New User</h1>
+
+<li>
+    @for(movie in movies){
+        <ul>movie.Id movie.name movie.director movie.yearReleased</ul>
+    }
+</li>
