@@ -1,0 +1,28 @@
+@model String[]
+@{
+    Layout=null;
+}
+<h1>Movies in Playlist</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Movies Names:
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var movie in Model) {
+        <tr>
+            <td>
+                @Html.DisplayNameFor(modelItem => movie)
+            </td>
+            <td>
+                <a asp-action="RemoveMovie" asp-route-id="@movie">Remove</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

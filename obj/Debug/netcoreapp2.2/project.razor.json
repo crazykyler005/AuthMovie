@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Smithy\\Desktop\\fullStack\\C#\\Backend\\AuthLesson\\AuthLesson.csproj",
+  "FilePath": "c:\\Users\\Smithy\\Desktop\\fullStack\\C#\\Backend\\AuthMovie\\AuthMovie.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2958,7 +2958,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "AuthLesson",
+  "RootNamespace": "AuthMovie",
   "Documents": [
     {
       "FilePath": "Views\\Shared\\Error.cshtml",
@@ -2966,13 +2966,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Home\\mIndex.cshtml",
-      "TargetPath": "Views\\Home\\mIndex.cshtml",
+      "FilePath": "Views\\Home\\CreateUser.cshtml",
+      "TargetPath": "Views\\Home\\CreateUser.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Playlists.cshtml",
+      "TargetPath": "Views\\Home\\Playlists.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2991,6 +2996,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Home\\CreateMovie.cshtml",
+      "TargetPath": "Views\\Home\\CreateMovie.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -3001,23 +3011,38 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FilePath": "Views\\Home\\Login.cshtml",
+      "TargetPath": "Views\\Home\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Home\\MovieForm.cshtml",
-      "TargetPath": "Views\\Home\\MovieForm.cshtml",
+      "FilePath": "Views\\Home\\Welcome.cshtml",
+      "TargetPath": "Views\\Home\\Welcome.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FilePath": "Views\\Home\\zIndex.cshtml",
+      "TargetPath": "Views\\Home\\zIndex.cshtml",
       "FileKind": "mvc"
     },
     {
       "FilePath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Treats.cshtml",
+      "TargetPath": "Views\\Home\\Treats.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\LoginFail.cshtml",
+      "TargetPath": "Views\\Home\\LoginFail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Home\\Playlist.cshtml",
+      "TargetPath": "Views\\Home\\Playlist.cshtml",
       "FileKind": "mvc"
     }
   ],

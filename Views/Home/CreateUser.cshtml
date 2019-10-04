@@ -1,0 +1,19 @@
+@model AuthMovie.User
+@{
+    Layout=null;
+}
+<h1>Create an account:</h1>
+
+<form asp-controller="Home" asp-action="CreateUser" method="POST">
+    <div>
+        <label asp-for="UserName"></label>
+        <input asp-for="UserName" />
+    </div>
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" />
+    </div>
+    <div>
+        <input type="submit" value="CreateUser" />
+    </div>
+</form>

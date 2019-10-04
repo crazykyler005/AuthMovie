@@ -1,0 +1,27 @@
+@model IEnumerable<AuthMovie.Playlist>
+@{
+    Layout=null;
+}
+<h1>placeholder Playlist:</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Playlist Names
+            </th>
+            <th>
+                Number of Movies in Playlist
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var playlist in Model) {
+        <tr>
+            <td>
+                @Html.DisplayNameFor(modelItem => playlist.Name)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -12425,11 +12425,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Smithy\\Desktop\\fullStack\\C#\\Backend\\AuthLesson\\AuthLesson.csproj",
-      "projectName": "AuthLesson",
-      "projectPath": "C:\\Users\\Smithy\\Desktop\\fullStack\\C#\\Backend\\AuthLesson\\AuthLesson.csproj",
+      "projectUniqueName": "C:\\Users\\Smithy\\Desktop\\fullStack\\C#\\Backend\\AuthMovie\\AuthMovie.csproj",
+      "projectName": "AuthMovie",
+      "projectPath": "C:\\Users\\Smithy\\Desktop\\fullStack\\C#\\Backend\\AuthMovie\\AuthMovie.csproj",
       "packagesPath": "C:\\Users\\Smithy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Smithy\\Desktop\\fullStack\\C#\\Backend\\AuthLesson\\obj\\",
+      "outputPath": "C:\\Users\\Smithy\\Desktop\\fullStack\\C#\\Backend\\AuthMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

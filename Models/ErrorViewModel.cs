@@ -1,6 +1,6 @@
 using System;
 
-namespace AuthLesson.Models
+namespace AuthMovie.Models
 {
     public class ErrorViewModel
     {
